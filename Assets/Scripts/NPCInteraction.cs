@@ -1,8 +1,9 @@
 using UnityEngine;
-using UnityEngine.EventSystems;
 
 public class NPCInteraction : MonoBehaviour
 {
+    [SerializeField] private DialoguePanel _dialoguePanel;
+
     private void Update()
     {
         if (Input.GetMouseButtonDown(0))
@@ -15,7 +16,7 @@ public class NPCInteraction : MonoBehaviour
 
             if (hit.collider != null && hit.collider.gameObject == gameObject)
             {
-                Debug.Log($"Диалог запущен кликом по {gameObject.name}.");
+                _dialoguePanel.Open();
             }
         }
     }
