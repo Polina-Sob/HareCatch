@@ -23,7 +23,6 @@ public class NPCInteraction : MonoBehaviour
 
     public void RemoveNPCFromWagon()
     {
-        Debug.Log($"NPC: {gameObject.name} удален из сцены (из вагона)");
         Destroy(gameObject);
     }
 }
