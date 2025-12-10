@@ -3221,7 +3221,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88685680da0130748b5077caaf94c223, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KickOutButton
-  _nPC: {fileID: 488098358}
+  _nPC: {fileID: 1543689832}
   _dialoguePanel: {fileID: 1713399044}
 --- !u!114 &874011398
 MonoBehaviour:
@@ -4605,7 +4605,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 6098055439763141138, guid: 7f30bcd67e95c754fba3287e878dfe8f, type: 3}
+  m_Sprite: {fileID: 813158536490199160, guid: 03a103264ddc79a46ad76a69665d6cd5, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5745,7 +5745,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88685680da0130748b5077caaf94c223, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KickOutButton
-  _nPC: {fileID: 488098358}
+  _nPC: {fileID: 668694087}
   _dialoguePanel: {fileID: 686614921}
 --- !u!114 &1780804243
 MonoBehaviour:
